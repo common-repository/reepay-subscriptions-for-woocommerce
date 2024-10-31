@@ -1,0 +1,366 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.reepay_subscription_pricing .wrap input, .reepay_subscription_fee .wrap input, .reepay_subscription_pricing .wrap select, .reepay_subscription_fee .wrap select {
+    width: 24.75% !important;
+    margin-right: 3.8%;
+}
+
+.reepay_subscription_pricing .advanced-fields .wrap input {
+    width: 45% !important;
+}
+
+.variable_pricing .reepay_subscription_choose label {
+    margin-right: 20px;
+    vertical-align: baseline;
+}
+
+#reepay_subscription_publish_btn.reepay_subscription_publish_btn p.form-field {
+    padding-left: 4px !important;
+}
+
+#global-addons-table td {
+    padding: 7px 9px;
+    vertical-align: middle;
+}
+
+#global-addons-table th {
+    padding: 7px 9px;
+}
+
+.global-addons-form td.postbox,
+.woocommerce_product_addons td.postbox {
+    padding: 0 !important;
+}
+
+.global-addons-form td label {
+    margin: 0;
+    width: auto;
+}
+
+.global-addons-form .addon_required label,
+.woocommerce_product_addons .addon_required label {
+    display: block;
+    float: none;
+}
+
+.global-addons-form .addon_required input,
+.woocommerce_product_addons .addon_required input {
+    width: 16px !important;
+    min-width: 0 !important;
+}
+
+#woocommerce-product-data ul.product_data_tabs li.addons_tab a:before {
+    content: "\f502";
+}
+
+#product_addons_data {
+    min-height: 0;
+}
+
+#product_addons_data .woocommerce-product-add-ons-toolbar--open-close {
+    display: none;
+}
+
+#product_addons_data textarea.import,
+#product_addons_data textarea.export {
+    width: 100%;
+    display: none;
+    margin: 10px 0 0;
+}
+
+#product_addons_data .woocommerce-product-add-ons-toolbar__import-export {
+    float: right;
+}
+
+#product_addons_data .woocommerce_product_addon .product_addon_type {
+    float: none;
+}
+
+#product_addons_data .woocommerce_product_addon .data table {
+    padding: 0;
+    border: 1px solid #ececec;
+}
+
+#product_addons_data .woocommerce_product_addon .data table td {
+    padding: 6px;
+}
+
+#product_addons_data .woocommerce_product_addon .data table thead th {
+    background: #ececec;
+    padding: 5px;
+}
+
+#product_addons_data .woocommerce_product_addon .data table tfoot td {
+    border-top: 1px solid #ececec;
+    padding: 6px;
+}
+
+#product_addons_data .woocommerce_product_addon .data input {
+    min-width: 50px;
+}
+
+#product_addons_data .woocommerce_product_addon .data .input-checkbox {
+    width: auto;
+    min-width: 16px;
+}
+
+.wc-metaboxes-wrapper .wc-metabox table td.minmax_column input {
+    width: 48%;
+    margin-right: 3%;
+}
+
+.wc-metaboxes-wrapper .wc-metabox table td.minmax_column input:nth-of-type(2) {
+    margin-right: 0;
+}
+
+.wc-metaboxes-wrapper .wc-metabox table td select {
+    width: auto !important;
+}
+
+.reepay-subscriptions-page {
+    margin-top: 30px
+}
+
+.table-view-list.subscriptions .column-status mark {
+    display: inline-flex;
+    line-height: 2.5em;
+    color: #777;
+    background: #e5e5e5;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    margin: -0.25em 0;
+    cursor: inherit !important;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.table-view-list.subscriptions .column-status span {
+    margin: 0 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-view-list.subscriptions .column-status .active {
+    background: #c6e1c6;
+    color: #5b841b;
+}
+
+.table-view-list.subscriptions .column-status .canceled {
+    color: #777;
+    background: #e5e5e5;
+}
+
+.table-view-list.subscriptions .column-status .expired {
+    background: #eba3a3;
+    color: #761919;
+}
+
+.table-view-list.subscriptions .column-status .on-hold {
+    background: #f8dda7;
+    color: #94660c;
+}
+
+.table-view-list.subscriptions .column-status .is-canceled {
+    color: #777;
+    background: #e5e5e5;
+}
+
+.table-view-list.subscriptions .column-status .trial {
+    background: #c6e1c6;
+    color: #5b841b;
+}
+
+.form-row.dimensions_field input {
+    width: 30.75% !important;
+    margin-right: 3.8% !important;
+}
+
+.form-row.dimensions_field input:last-child {
+    margin-right: 0 !important;
+}
+
+.reepay_subscription_settings input[type="radio"] {
+    margin-right: 7px;
+}
+
+.reepay_subscription_choose input[type="radio"] {
+    margin-right: 7px;
+}
+
+[for="_subscription_billing_cycles"] {
+    width: 100%;
+}
+
+[for="_subscription_fee"] {
+    width: 100%;
+}
+
+.reepay-subscriptions-page .column-status {
+    width: 8%;
+}
+
+.choose-radio {
+    display: flex;
+    align-items: center;
+    padding-left: 0 !important;
+}
+
+.choose-radio input {
+    width: auto !important;
+    float: inherit !important;
+    min-width: 16px !important;
+}
+
+.choose-radio label {
+    margin-right: 20px !important;
+}
+
+.reepay-supersedes .woocommerce-help-tip {
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 960px) {
+    .reepay-subscriptions-page .column-status {
+        width: 9%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reepay-subscriptions-page .column-status {
+        width: 12%;
+    }
+}
+
+.form-field.supersedes_block_variable label {
+    width: 100%;
+    display: inline-block;
+}
+
+.form-field.supersedes_block_variable .woocommerce-help-tip {
+    margin: 0;
+    font-size: 16px !important;
+    line-height: 16px !important;
+}
+
+p.form-field.form-row .woocommerce-help-tip {
+    float: unset !important;
+}
+
+p.form-field span.form-field_time-type {
+    margin-left: 9px;
+}
+
+.reepay_subscription_variable {
+    padding: 5px;
+    border: 1px solid #eee;
+}
+
+.reepay_subscription_settings_exist.variable .options_group {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.addon_name select {
+    margin-bottom: 10px !important;
+}
+
+.choose-plan-variable .form-field {
+    display: flex !important;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.choose-plan-variable .form-field label, .choose-plan-variable .form-field select {
+    margin-right: 10px;
+}
+
+.choose-plan-variable .form-field a {
+    margin-top: 0 !important;
+}
+
+.reepay_subscription_variable .reepay_subscription_fee .form-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.reepay_subscription_variable .reepay_subscription_publish_btn .form-field {
+    flex-direction: row;
+}
+
+#_reepay_subscription_handle {
+    max-width: 30%;
+}
+
+.order_action_reepay_subscriotions .reepay-admin-section-li {
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.order_action_reepay_subscriotions .reepay-balance__amount,
+.order_action_reepay_subscriotions .reepay-balance__label {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: unset;
+    color: black;
+}
+
+.reepay_subscription_container .select2-container {
+    width: 100% !important;
+    max-width: 300px !important;
+    min-width: 100px !important;
+    margin-right: 5px;
+}
+
+.reepay_subscription_variable .form-field {
+    padding: 5px 20px 5px 162px !important;
+}
+
+.reepay_subscription_variable .form-field label {
+    float: left;
+    width: 150px;
+    padding: 0;
+    margin: 0 0 0 -150px;
+}
+
+.reepay_subscription_variable .form-field select.short {
+    width: 50%;
+}
+
+body.tools_page_reepay_import .form-table:first-of-type {
+    border-top: unset;
+}
+
+body.tools_page_reepay_import .form-table{
+    border-top: 1px solid #c4c4c4;
+}
+
+.reepay-import__row--sub th,
+.reepay-import__row--sub td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.reepay-import__row--sub th {
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.reepay-import-table tr.success {
+    background-color: #b3ffe5!important;
+}
+
+.reepay-import-table tr.skipped {
+    background-color: #fdffb3!important;
+    opacity: 0.6;
+}
+
+.reepay-import-table tr.error {
+    background-color: #ffc7c7!important;
+}
